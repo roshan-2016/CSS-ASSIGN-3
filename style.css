@@ -1,0 +1,143 @@
+body{
+    background-color:grey;
+}
+#main{
+    border: 10px red solid;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: purple;
+    border-radius: 10px;
+    text-shadow: 2px 2px black;
+    box-shadow: 5px 5px purple;
+}
+#four{
+    border: green solid 10px;
+    height: 730px;
+}
+
+#fixed-div{
+    display: flex;
+    border: red 5px solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: chartreuse;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    color:maroon;
+    box-shadow: 5px 5px purple;
+}
+
+
+#top{
+    height:500px;
+}
+
+#top-left{
+    float: left;
+    border: red 10px solid;
+    border-radius: 25px;
+    width:250px;
+    text-align: center;
+    background-color: WHITE;
+    text-shadow: 2px 2px purple;
+    box-shadow: 5px 5px purple;
+}
+#top-left h2{
+    line-height: 52px;
+}
+
+#top-right{
+    float: right;
+    width: 250px;
+    text-align: center;
+    border: red 10px solid;
+    border-radius: 25px;
+    background-color: WHITE;
+    box-shadow: 5px 5px purple;
+}
+
+#image-div{
+    padding: 10px;
+}
+
+#bottom-left{
+    float: left;
+    border: red 10px solid;
+    border-radius: 25px;
+    width:40%;
+    text-align:left;
+    height: 210px;
+    background-color: WHITE;
+    text-shadow: 2px 2px purple;
+    box-shadow: 5px 5px purple;
+}
+
+#bottom-right{
+    float: right;
+    border: red 10px solid;
+    border-radius: 25px;
+    height: 150px;
+    padding:30px;
+    background-color: WHITE;
+    text-shadow: 2px 2px purple;
+    box-shadow: 5px 5px purple;
+}
+
+#forms{
+    text-align: center;
+}
+#submit-button{
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: red;
+}
+
+#bottom-note{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid purple;
+    background-color: green;
+}
+
+#bottom-note h2{
+    text-align: center;
+    justify-content:flex-start;
+}
+.flex-container{
+    display: flex;
+}
+
+#note-left{
+    /*float: left;*/
+    text-align: center;
+    background-color: greenyellow;
+    margin-right: 10px;
+}
+
+#note-right{
+    /*float: right;*/
+    text-align: center;
+    margin-left: 2px;
+    background-color: greenyellow;
+}
+
+#note-bottom{
+    text-align: center;
+    background-color: greenyellow;
+}
+
+#note-bottom #para{
+    line-height: 30px;
+}
